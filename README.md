@@ -96,3 +96,61 @@ Tools Used:
 - Python
 - TensorFlow/Keras
 - Kaggle Notebook
+
+  # Vision Models Implementation
+
+## Dataset
+**Intel Image Classification Dataset**
+
+Classes:
+- Buildings
+- Forest
+- Glacier
+- Mountain
+- Sea
+- Street
+
+## Models Implemented
+
+1. ConvNeXt
+2. Vision Transformer (ViT)
+3. Swin Transformer
+4. EVA
+5. DINOv2
+6. MAE (Masked Autoencoder)
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+- Training Loss Curve
+
+## Environment
+
+- Python
+- PyTorch
+- timm
+- Hugging Face Transformers
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Kaggle (Tesla T4 GPU)
+
+## Repository Structure
+
+```
+├── ConvNeXt.ipynb
+├── ViT.ipynb
+├── Swin_Transformer.ipynb
+├── EVA.ipynb
+├── DINOv2.ipynb
+├── MAE.ipynb
+└── README.md
+```
+
+## Objective
+
+Implement and compare state-of-the-art vision models on the Intel Image Classification dataset using transfer learning and evaluate their performance using standard classification metrics.
